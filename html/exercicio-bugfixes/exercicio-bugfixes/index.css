@@ -1,0 +1,176 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff9e37;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: auto; 
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: rgb(255, 255, 255);
+    
+    
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 350px;
+    text-align: center;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    transition: opacity 0.3s ease;
+}
+
+.icone:hover {
+    opacity: 0.7;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2274a5;
+    color: white;
+    padding: 100px
+    
+}
+
+#container-de-descricao>ol {
+    padding: 10px 0px;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+    border-top: 130px solid #e7eb90; /* Espessura e cor da borda superior */
+    padding: 10px; 
+}
+
+#container-para-comprar > p {
+    color: #c44f00;
+    padding: 100px 0px;
+    font-size: 60px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+td {
+    font-family: 'Roboto', sans-serif;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+}
+
+td button:hover {
+    background-color: #b0a74d;
+}
+
+td button :active {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+#back-button{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+#back-button:hover {
+    background-color: #15c83c
+}
+
+
+
+
+
